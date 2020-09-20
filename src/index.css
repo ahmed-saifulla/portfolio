@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #2b2a2f;
+  color: #fbfcfe;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a {
+  text-decoration: none;
+}
+
+/* For new line in flex box div  */
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.page-title {
+  font-size: 30px;
+  color: #ffc42b;
+}
+
+.yellow-text {
+  color: #ffc42b;
+  letter-spacing: -2px;
+}
+
+.primary-color {
+  color: #fbfcfe;
+}
+
+.secondary-color {
+  color: #e2e5eb;
+}
+
+.ternary-color {
+  color: #d2d7df;
+}

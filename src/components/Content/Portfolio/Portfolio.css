@@ -1,0 +1,48 @@
+.Portfolio {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* text-align: center; */
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 0;
+}
+.sub-title {
+  margin: 0;
+  font-size: 21px;
+  font-weight: normal;
+}
+
+.section-title {
+  font-size: 21px;
+}
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.work {
+  margin: 16px;
+  text-align: center;
+}
+
+.work img {
+  width: 200px;
+  height: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+  .work img {
+    width: 300px;
+    height: 200px;
+  }
+}
