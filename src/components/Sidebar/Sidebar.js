@@ -28,7 +28,6 @@ class Sidebar extends Component {
         <h1 className="fullname">Ahmed Saifulla</h1>
         <h2 className="designation">Full Stack Developer</h2>
         <ul className="menu">
-          <BrowserRouter>
             <div>
               <Link to="/">
                 <li className="menu-item">Home</li>
@@ -43,7 +42,6 @@ class Sidebar extends Component {
                 <li className="menu-item">Contact</li>
               </Link>
             </div>
-          </BrowserRouter>
         </ul>
       </div>
     );
