@@ -18,10 +18,11 @@ class Home extends Component {
                         <h1>Nice to meet you.</h1>
                     </Animated>
 
-                    <Animated animationIn="headShake" animationInDelay={1500} animationOut="fadeOut" isVisible={true}>
-                        <h4 >More about me</h4>
-                    </Animated>
-
+                    <Link to="/about" >
+                        <Animated animationIn="headShake" animationInDelay={1500} animationOut="fadeOut" isVisible={true}>
+                            <h4  className="primary-color fw-300">More about me</h4>
+                        </Animated>
+                    </Link>
                 </div>
             </div>
         );

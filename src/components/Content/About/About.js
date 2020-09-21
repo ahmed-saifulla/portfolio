@@ -12,15 +12,13 @@ function About() {
         <h2 className="title">Ahmed Saifulla</h2>
         <h4 className="sub-title">Full Stack Developer</h4>
 
-        <p>
-          {" "}
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
-          inventore nihil vero officiis dolores accusantium dicta veniam, totam
-          deleniti soluta voluptas consequatur reprehenderit atque qui ab
-          architecto? Ipsum, dolores reiciendisur adipisicing elit. Dolorem
-          inventore nihil vero officiis dolores accusantium dicta veniam, totam
-          deleniti soluta voluptas consequatur reprehenderit atque qui ab
-          architecto? Ipsum, dolores reiciendis?{" "}
+        <p className="about-para">
+          Enthusiast React, Angular, Codigniter Developer with a demonstrated
+          history of working in the marketing and advertising industry. Skilled
+          in Javascript, PHP, (Programming Language), jQuery, Bootstrap,
+          and Cascading Style Sheets (CSS). Strong engineering professional with
+          a Bachelor's degree focused in Computer Engineering from Visvesvaraya
+          Technological University.
         </p>
 
         <h4 className="section-title">
@@ -99,8 +97,12 @@ function About() {
             <img src={profilephoto} alt="" />
             <div className="edu-item-right">
               <h4 className="primary-color">Bachelor of Engineering (B. E.)</h4>
-              <h5 className="secondary-color">Visvesvaraya Technological University, Karnataka, India</h5>
-              <h6 className="ternary-color">P. A. College of Engineering, Mangalore.</h6>
+              <h5 className="secondary-color">
+                Visvesvaraya Technological University, Karnataka, India
+              </h5>
+              <h6 className="ternary-color">
+                P. A. College of Engineering, Mangalore.
+              </h6>
             </div>
           </div>
 
@@ -108,8 +110,12 @@ function About() {
             <img src={profilephoto} alt="" />
             <div className="edu-item-right">
               <h4 className="primary-color">High School</h4>
-              <h5 className="secondary-color">Higher Seconadary Education, Kerala. India.</h5>
-              <h6 className="ternary-color">Thanbeehul Islam. H. S. S, Kasaragod.</h6>
+              <h5 className="secondary-color">
+                Higher Seconadary Education, Kerala. India.
+              </h5>
+              <h6 className="ternary-color">
+                Thanbeehul Islam. H. S. S, Kasaragod.
+              </h6>
             </div>
           </div>
         </div>

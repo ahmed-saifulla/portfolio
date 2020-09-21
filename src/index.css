@@ -45,3 +45,7 @@ a {
 .ternary-color {
   color: #d2d7df;
 }
+
+.fw-300{
+  font-weight: 300;
+}
