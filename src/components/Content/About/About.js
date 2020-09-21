@@ -1,6 +1,9 @@
 import React from "react";
 import "./About.css";
 
+import htmlimage from "../../../images/html.png";
+import cssimage from "../../../images/css.png";
+import jsimage from "../../../images/js.png";
 import profilephoto from "../../../images/profilephoto.jpg";
 
 function About() {
@@ -27,15 +30,15 @@ function About() {
         </h4>
         <div className="skills">
           <div className="skill">
-            <img src={profilephoto} alt="" />
+            <img src={htmlimage} alt="" />
             <h5>HTML</h5>
           </div>
           <div className="skill">
-            <img src={profilephoto} alt="" />
+            <img src={cssimage} alt="" />
             <h5>CSS</h5>
           </div>
           <div className="skill">
-            <img src={profilephoto} alt="" />
+            <img src={jsimage} alt="" />
             <h5>JS</h5>
           </div>
           <div className="break"></div> {/*--------------*/}
