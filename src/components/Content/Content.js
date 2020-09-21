@@ -11,6 +11,10 @@ class Content extends Component {
   render() {
     var currentLocation = window.location.pathname;
 
+    const links = document.querySelectorAll(".page-header ul a");
+
+   
+
     return (
       <div className="Content">
         {/* <div className="first-row"> */}

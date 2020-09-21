@@ -15,6 +15,18 @@ class Sidebar extends Component {
     console.log("click");
   }
 
+  scrollup(e) {
+    // e.preventDefault();
+    const offsetTop = document.querySelector('.Content').offsetTop;
+
+    window.scroll({
+      top: offsetTop,
+      behavior: "smooth"
+    });
+  }
+
+
+
   render() {
     return (
       <div className="Sidebar">
@@ -28,16 +40,16 @@ class Sidebar extends Component {
         <h1 className="fullname">Ahmed Saifulla</h1>
         <h2 className="designation">Full Stack Developer</h2>
         <ul className="menu">
-          <Link to="/">
+          <Link to="/" onClick={(e) => this.scrollup(e)}>
             <li className="menu-item">Home</li>
           </Link>
-          <Link to="/about">
+          <Link to="/about" onClick={(e) => this.scrollup(e)}>
             <li className="menu-item">About</li>
           </Link>
-          <Link to="/portfolio">
+          <Link to="/portfolio" onClick={(e) => this.scrollup(e)}>
             <li className="menu-item">Portfolio</li>
           </Link>
-          <Link to="/contact">
+          <Link to="/contact" onClick={(e) => this.scrollup(e)}>
             <li className="menu-item">Contact</li>
           </Link>
         </ul>
