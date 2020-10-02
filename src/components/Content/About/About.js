@@ -5,6 +5,17 @@ import htmlimage from "../../../images/html.png";
 import cssimage from "../../../images/css.png";
 import jsimage from "../../../images/js.png";
 import profilephoto from "../../../images/profilephoto.jpg";
+import reactimage from "../../../images/react-logo.png";
+import angularimage from "../../../images/angular.png";
+import bootstrapimage from "../../../images/bootstrap.png";
+import materializeimage from "../../../images/materialize.png";
+import nodejsimage from "../../../images/nodejs.png";
+import expressimage from "../../../images/express.png";
+import postmanimage from "../../../images/postman.png";
+import mysqlimage from "../../../images/mysql.png";
+import mongodbimage from "../../../images/mongodb.png";
+import postgresqlimage from "../../../images/postgresql.png";
+import gcloudimage from "../../../images/gcloud.png";
 
 function About() {
   return (
@@ -43,50 +54,50 @@ function About() {
           </div>
           <div className="break"></div> {/*--------------*/}
           <div className="skill">
-            <img src={profilephoto} alt="" />
+            <img src={reactimage} alt="React" />
             <h5>ReactJS</h5>
           </div>
           <div className="skill">
-            <img src={profilephoto} alt="" />
+            <img src={angularimage} alt="Angular" />
             <h5>Angular</h5>
           </div>
           <div className="skill">
-            <img src={profilephoto} alt="" />
+            <img src={bootstrapimage} alt="" />
             <h5>Bootstrap</h5>
           </div>
           <div className="skill">
-            <img src={profilephoto} alt="" />
+            <img src={materializeimage} alt="" />
             <h5>Materialize</h5>
           </div>
           <div className="break"></div> {/*--------------*/}
           <div className="skill">
-            <img src={profilephoto} alt="" />
+            <img src={nodejsimage} alt="" />
             <h5>NodeJS</h5>
           </div>
           <div className="skill">
-            <img src={profilephoto} alt="" />
+            <img src={expressimage} alt="" />
             <h5>Express</h5>
           </div>
           <div className="skill">
-            <img src={profilephoto} alt="" />
+            <img src={postmanimage} alt="" />
             <h5>Postman</h5>
           </div>
           <div className="break"></div> {/*--------------*/}
           <div className="skill">
-            <img src={profilephoto} alt="" />
+            <img src={mysqlimage} alt="" />
             <h5>MySQL</h5>
           </div>
           <div className="skill">
-            <img src={profilephoto} alt="" />
+            <img src={mongodbimage} alt="" />
             <h5>MongoDB</h5>
           </div>
           <div className="skill">
-            <img src={profilephoto} alt="" />
+            <img src={postgresqlimage} alt="" />
             <h5>PostgreSQL</h5>
           </div>
           <div className="break"></div> {/*--------------*/}
           <div className="skill">
-            <img src={profilephoto} alt="" />
+            <img src={gcloudimage} alt="" />
             <h5>Google Cloud</h5>
           </div>
         </div>
