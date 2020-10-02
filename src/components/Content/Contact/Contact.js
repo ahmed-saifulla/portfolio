@@ -2,6 +2,11 @@ import React from "react";
 import "./Contact.css";
 
 import profilephoto from "../../../images/profilephoto.jpg";
+import github from "../../../images/github.png";
+import gmail from "../../../images/gmail.png";
+import whatsapp from "../../../images/whatsapp.png";
+import instagram from "../../../images/instagram.png";
+import linkedin from "../../../images/linkedin.png";
 
 function Contact() {
   return (
@@ -31,25 +36,25 @@ function Contact() {
           <h3>Stay in touch</h3>
           <div className="medias">
             <a href="#!" className="media">
-              <img src={profilephoto} alt="" />
+              <img src={github} alt="" />
               <h6>Github</h6>
             </a>
             <a href="#!" className="media">
-              <img src={profilephoto} alt="" />
-              <h6>Github</h6>
+              <img src={gmail} alt="" />
+              <h6>Gmail</h6>
             </a>
             <a href="#!" className="media">
-              <img src={profilephoto} alt="" />
-              <h6>Github</h6>
+              <img src={linkedin} alt="" />
+              <h6>LinkedIn</h6>
             </a>
             <div className="break"></div> {/*--------------*/}
             <a href="#!" className="media">
-              <img src={profilephoto} alt="" />
-              <h6>Github</h6>
+              <img src={instagram} alt="" />
+              <h6>Instagram</h6>
             </a>
             <a href="#!" className="media">
-              <img src={profilephoto} alt="" />
-              <h6>Github</h6>
+              <img src={whatsapp} alt="" />
+              <h6>Whatsapp</h6>
             </a>
           </div>
         </div>
