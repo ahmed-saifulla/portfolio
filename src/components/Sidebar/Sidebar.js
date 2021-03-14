@@ -46,9 +46,9 @@ class Sidebar extends Component {
           <Link to="/about" onClick={(e) => this.scrollup(e)}>
             <li className="menu-item">About</li>
           </Link>
-          <Link to="/portfolio" onClick={(e) => this.scrollup(e)}>
+          {/* <Link to="/portfolio" onClick={(e) => this.scrollup(e)}>
             <li className="menu-item">Portfolio</li>
-          </Link>
+          </Link> */}
           <Link to="/contact" onClick={(e) => this.scrollup(e)}>
             <li className="menu-item">Contact</li>
           </Link>
