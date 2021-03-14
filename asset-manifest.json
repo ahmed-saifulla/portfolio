@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.825beb71.chunk.css",
+    "main.js": "/static/js/main.c0354543.chunk.js",
+    "main.js.map": "/static/js/main.c0354543.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.4b712a6d.chunk.js": "/static/js/2.4b712a6d.chunk.js",
+    "static/js/2.4b712a6d.chunk.js.map": "/static/js/2.4b712a6d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.15e46c90535ef56de5e4167a7f14fdad.js": "/precache-manifest.15e46c90535ef56de5e4167a7f14fdad.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.825beb71.chunk.css.map": "/static/css/main.825beb71.chunk.css.map",
+    "static/js/2.4b712a6d.chunk.js.LICENSE.txt": "/static/js/2.4b712a6d.chunk.js.LICENSE.txt",
+    "static/media/angular.png": "/static/media/angular.762d0fe4.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.6d8efc16.png",
+    "static/media/css.png": "/static/media/css.d19ab863.png",
+    "static/media/express.png": "/static/media/express.50a033d5.png",
+    "static/media/github.png": "/static/media/github.04569e69.png",
+    "static/media/gmail.png": "/static/media/gmail.9ad42cca.png",
+    "static/media/html.png": "/static/media/html.55982f01.png",
+    "static/media/instagram.png": "/static/media/instagram.543288c4.png",
+    "static/media/js.png": "/static/media/js.f4f317b3.png",
+    "static/media/linkedin.png": "/static/media/linkedin.fb998fbe.png",
+    "static/media/materialize.png": "/static/media/materialize.6a7a90ea.png",
+    "static/media/mongodb.png": "/static/media/mongodb.243a9987.png",
+    "static/media/mysql.png": "/static/media/mysql.e2e570b6.png",
+    "static/media/nodejs.png": "/static/media/nodejs.596768ed.png",
+    "static/media/postgresql.png": "/static/media/postgresql.438603bd.png",
+    "static/media/postman.png": "/static/media/postman.182ce92b.png",
+    "static/media/profilephoto.jpg": "/static/media/profilephoto.c7b5f6a0.jpg",
+    "static/media/react-logo.png": "/static/media/react-logo.32ea3796.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.05e6a658.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.4b712a6d.chunk.js",
+    "static/css/main.825beb71.chunk.css",
+    "static/js/main.c0354543.chunk.js"
+  ]
+}
